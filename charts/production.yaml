@@ -1,0 +1,8 @@
+imageKey:
+    repository: acraksny4igyi7wwzek.azurecr.io/azure-voting-app-redis
+    pullPolicy: IfNotPresent
+    tag: latest
+service:
+    annotations: {}
+    type: LoadBalancer
+    port: "80"
